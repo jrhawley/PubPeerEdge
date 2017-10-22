@@ -8,8 +8,7 @@ To use this unsigned extension as is, please do the following:
 
 1. Ensure that apps can be sideloaded in Edge.
     Go to Settings > Update & security > For developers, and select "Sideload apps" or "Developer mode"
-1. Load extension into Edge
-    ... > Extensions > Load Extension, and browse to this repo clone
+1. Load extension into Edge: ... > Extensions > Load Extension, and browse to this repo clone
 
 
 ## Packaging this application for the Microsoft Store
