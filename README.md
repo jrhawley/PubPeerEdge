@@ -43,8 +43,7 @@ If you want to test the extension locally, you need to follow the next section.
 This is for testing your AppX package before submission to the Microsoft Store.
 I'm following 
 
-1. Create a self-signed certificate in PowerShell (admin)
-    See [this article](https://docs.microsoft.com/en-us/windows/uwp/packaging/create-certificate-package-signing) from Microsoft.
+1. Create a self-signed certificate in PowerShell (admin). See [this article](https://docs.microsoft.com/en-us/windows/uwp/packaging/create-certificate-package-signing) from Microsoft.
     ```powershell
     New-SelfSignedCertificate -Type Custom -Subject <Package/Identity/Publisher from Microsoft Developer Dashboard> -KeyUsage DigitalSignature -FriendlyName <Package/Properties/PublisherDisplayName from Microsoft Developer Dashboard> -CertStoreLocation "Cert:\LocalMachine\My"
     ```
