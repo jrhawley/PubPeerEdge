@@ -13,10 +13,19 @@
     }
   ],
   "description": "Show links to existing PubPeer comments",
+  "browser_action": {
+    "default_icon": {
+      "20": "pubpeer-20x20.png",
+      "40": "pubpeer-40x40.png"
+    },
+    "default_title": "PubPeer"
+  },
   "icons": {
-    "16": "pubpeer-16x16.png",
+    "24": "pubpeer-24x24.png",
+    "44": "pubpeer-44x44.png",
     "48": "pubpeer-48x48.png",
-    "128": "pubpeer-128x128.png"
+    "50": "pubpeer-50x50.png",
+    "150": "pubpeer-150x150.png"
   },
   "manifest_version": 2,
   "name": "PubPeer",
