@@ -7,7 +7,8 @@ Based on PubPeer extension for Chrome and Firefox, with updates from [Microsoft 
 To use this unsigned extension as is, please do the following:
 
 1. Ensure that apps can be sideloaded in Edge.
-    Go to Settings > Update & security > For developers, and select "Sideload apps" or "Developer mode"
+    Go to Settings > Update & security > For developers, and select "Sideload apps" or "Developer mode".
+    Then, go to Edge > about:flags, and check "Enable extension developer features".
 1. Load extension into Edge: ... > Extensions > Load Extension, and browse to this repo clone
 
 
